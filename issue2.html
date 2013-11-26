@@ -15,13 +15,22 @@
 
 
         <h4>sample code:</h4>
-        <pre>
-        <code>
-        &lt;html&gt;                                                                                                                                                                        &lt;script&gt;        onload=function(){
-                    var c = document.getElementById(&quot;canvas&quot;);
-                    var t = c.getContext(&quot;2d&quot;);            t.fillRect(10,10,20,20);        }    &lt;/script&gt;    &lt;body&gt;        &lt;canvas id=&quot;canvas&quot; width=&quot;300&quot; height=&quot;300&quot; style=&quot;background-color:rgb(0,0,255)&quot;&gt;&lt;/canvas&gt;    &lt;/body&gt;&lt;/html&gt;
-        </code>
-        </pre>
+<pre>
+<code>
+&lt;html&gt;
+    &lt;script&gt;
+        onload=function(){
+            var c = document.getElementById(&quot;canvas&quot;);
+            var t = c.getContext(&quot;2d&quot;);
+            t.fillStyle=&quot;#f00&quot;;
+        }
+    &lt;/script&gt;
+    &lt;body&gt;
+        &lt;canvas id=&quot;canvas&quot; width=&quot;300&quot;, height=&quot;300&quot; style=&quot;background-color:rgb(0,255,0)&quot;&gt;&lt;/canvas&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
         <canvas id="canvas" width="300" height="300" style="background-color:rgb(0,0,255)"></canvas>
     </body>
 </html>

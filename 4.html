@@ -8,13 +8,13 @@
     </script>
     <body>
         <h4>Config</h4>
-        <p>Green canvas : 256 x 4097</p>
+        <p>Green canvas : 256 x 4096</p>
         <p>Do fillRect</p>
         <h4>Expect behavior:</h4>
         <p>Black square on green canvas appear.</p>
 
         <h4>Chrome for Android on Nexus 5 behavior:</h4>
-        <p>All it's cracked up to be</p>
+        <p>Black square only appear. Nothing green canvas.</p>
 
         <h4>sample code:</h4>
 <pre>
@@ -28,11 +28,11 @@
         }
     &lt;/script&gt;
     &lt;body&gt;
-        &lt;canvas id=&quot;canvas&quot; width=&quot;256&quot;, height=&quot;4097&quot; style=&quot;background-color:rgb(0,255,0)&quot;&gt;&lt;/canvas&gt;
+        &lt;canvas id=&quot;canvas&quot; width=&quot;256&quot;, height=&quot;4096&quot; style=&quot;background-color:rgb(0,255,0)&quot;&gt;&lt;/canvas&gt;
     &lt;/body&gt;
 &lt;/html&gt;
 </code>
 </pre>
-        <canvas id="canvas" width="256" height="4097" style="background-color:rgb(0,255,0)"></canvas>
+        <canvas id="canvas" width="256" height="4096" style="background-color:rgb(0,255,0)"></canvas>
     </body>
 </html>
